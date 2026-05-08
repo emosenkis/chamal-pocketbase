@@ -1,5 +1,5 @@
 FROM alpine:3.20 AS downloader
-ARG PB_VERSION=0.29.3
+ARG PB_VERSION=0.38.0
 ARG PB_SHA256=""
 RUN apk add --no-cache curl unzip ca-certificates && update-ca-certificates
 WORKDIR /tmp/pb
